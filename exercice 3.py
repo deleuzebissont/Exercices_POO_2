@@ -1,7 +1,7 @@
-from math import pi
+import math
 
 
-# nous importons pi de la librairie math
+# nous importons la librairie math
 
 class Cercle:
     def __init__(self, rayon):
@@ -11,8 +11,8 @@ class Cercle:
 
     def calcul_aire(self):
         # nous retournons la formule de l aire d un cercle
-        return self.rayon ** 2 * pi
+        return math.pi * self.rayon**2
 
     def calcul_circonference(self):
         # nous retournons la formule de la circonference d un cercle
-        return self.rayon * 2 * pi
+        return 2 * math.pi * self.rayon
